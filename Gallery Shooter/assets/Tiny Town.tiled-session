@@ -1,0 +1,68 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "TinyTownMap.json",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "C:/Users/enriq/OneDrive/Desktop/TinyTownMap.json": {
+            "scale": 3.9899999999999998,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 52.88220551378447,
+                "y": 81.70426065162908
+            }
+        },
+        "C:/Users/enriq/OneDrive/Desktop/TinyTownMap.json#tiny-town-packed": {
+            "scaleInDock": 1
+        },
+        "Tiny Town.json": {
+            "scale": 3.9899999999999998,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 73.30827067669175,
+                "y": 80.07518796992483
+            }
+        },
+        "Tiny Town.json#tiny-town-packed": {
+            "scaleInDock": 1
+        },
+        "TinyTownMap.json": {
+            "scale": 3.6693749999999996,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 23.982285811616418,
+                "y": 51.6436722875149
+            }
+        },
+        "TinyTownMap.json#tiny-town-packed": {
+            "scaleInDock": 1
+        }
+    },
+    "last.exportedFilePath": "C:/Users/enriq/OneDrive/Desktop/CMPM120/TopDownWorld/assets",
+    "last.imagePath": "C:/Users/enriq/OneDrive/Desktop/CMPM120/TopDownWorld/assets",
+    "map.height": 10,
+    "map.lastUsedExportFilter": "JSON map files (*.tmj *.json)",
+    "map.lastUsedFormat": "json",
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "map.width": 10,
+    "openFiles": [
+        "TinyTownMap.json"
+    ],
+    "project": "Tiny Town.tiled-project",
+    "recentFiles": [
+        "TinyTownMap.json",
+        "C:/Users/enriq/OneDrive/Desktop/TinyTownMap.json",
+        "Tiny Town.json"
+    ],
+    "tileset.embedInMap": true,
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    }
+}
