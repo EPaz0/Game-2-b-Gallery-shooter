@@ -160,7 +160,7 @@ class levelOne extends Phaser.Scene {
         });
 
         
-        document.getElementById('description').innerHTML = '<h2>Controls.js</h2><br>A: left // D: right // Space: fire/emit'
+       // document.getElementById('description').innerHTML = '<h2>Controls.js</h2><br>A: left // D: right // Space: fire/emit'
 
         // Put score on screen
         my.text.score = this.add.bitmapText(700, 0, "rocketSquare", "Score " + this.playerScore);
