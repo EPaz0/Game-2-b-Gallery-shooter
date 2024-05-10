@@ -26,22 +26,35 @@ class TitleScreen extends Phaser.Scene {
         this.waterLayer = this.map.createLayer("water", this.tileset2, 0, 0);
 
 
-        this.add.text(200, 200, "Monkey vs Aliens", {
-            fontFamily: '"Black Ops One", system-ui', // Note the placement of the quotes!
-            fontSize: 70,
-            color: '#FFFFFF', // This sets the color to white.
-            wordWrap: {
-                width: 1000
-            }
-        });
+        let centerX = this.game.config.width / 2;
+        let centerY = this.game.config.height / 2;
 
-        this.add.text(350, 500, "Press SPACE to Play", {
+        // Title text centered
+        this.add.text(centerX, centerY - 100, "Monkey vs Aliens", {
+            fontFamily: '"Black Ops One", system-ui',
+            fontSize: 70,
+            color: '#FFFFFF',
+            align: 'center',
+            wordWrap: { width: this.game.config.width }
+        }).setOrigin(0.5);
+
+        // Instruction text centered
+        this.add.text(centerX, centerY + 50, "Press SPACE to Play", {
             fontFamily: "'Black Ops One'",
             fontSize: 30,
-            wordWrap: {
-                width: 1000
-            }
-        });
+            color: '#FFFFFF',
+            align: 'center',
+            wordWrap: { width: this.game.config.width }
+        }).setOrigin(0.5);
+
+        // Controls text centered
+        this.add.text(centerX, centerY + 150, "Controls: A (left), D (right), SPACE (fire/emit)", {
+            fontFamily: "'Black Ops One'",
+            fontSize: 20,
+            color: '#FFFFFF',
+            align: 'center',
+            wordWrap: { width: this.game.config.width }
+        }).setOrigin(0.5);
 
 
     }

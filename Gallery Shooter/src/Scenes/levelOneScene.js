@@ -159,6 +159,7 @@ class levelOne extends Phaser.Scene {
             loop: true
         });
 
+        
         document.getElementById('description').innerHTML = '<h2>Controls.js</h2><br>A: left // D: right // Space: fire/emit'
 
         // Put score on screen
